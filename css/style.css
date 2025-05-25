@@ -82,6 +82,18 @@ nav img {
   padding-top: 22px;
 }
 
+/****** Info-group ***********/
+.headline {
+  padding-top: 40px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.headline h2, .headline p {
+  margin: 0;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
