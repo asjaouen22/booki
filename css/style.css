@@ -90,8 +90,60 @@ nav img {
   flex-direction: column;
 }
 
-.headline h2, .headline p {
+.headline h2 {
   margin: 0;
+  font-size: 22px;
+}
+
+.headline p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 35px 0px;
+}
+
+.search-bar i {
+  padding: 16px 19px;
+  color: black;
+  background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.search-bar form {
+  display: flex;
+  margin: 0;
+}
+
+form.search-form input[type=text] {
+  padding: 13px 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  border: 1px solid #F2F2F2;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+}
+
+.search-bar input::placeholder {
+  color: black;
+}
+
+form.search-form button {
+  padding: 13px 16px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #0065FC;
+  color: white;
+  border: 1px solid #0065FC;
+  border-left: none;
+  border-radius: 0px 15px 15px 0px;
+  cursor: pointer;
 }
 
 /****** Hebergements And Populaires ***********/
