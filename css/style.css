@@ -107,10 +107,11 @@ nav img {
 }
 
 .search-bar i {
-  padding: 16px 19px;
+  padding: 15.5px 19px;
   color: black;
   background-color: #F2F2F2;
   border: 1px solid #F2F2F2;
+  border-right: none;
   border-radius: 15px 0px 0px 15px;
 }
 
@@ -140,10 +141,36 @@ form.search-form button {
   font-weight: bold;
   background: #0065FC;
   color: white;
-  border: 1px solid #0065FC;
+  border: 1px solid #F2F2F2;
   border-left: none;
   border-radius: 0px 15px 15px 0px;
   cursor: pointer;
+}
+
+.filter-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.btn {
+  padding: 13px;
+  font-size: 17px;
+  font-weight: bold;
+  border: 2px solid #D9D9D9;
+  border-radius: 25px;
+  background-color: white;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #DEEBFF;
+}
+
+.btn i {
+  padding-right: 6px;
 }
 
 /****** Hebergements And Populaires ***********/
