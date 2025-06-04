@@ -357,6 +357,34 @@ form.search-form button {
 }
 
 /****** Footer ***********/
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F2F2F2;
+  margin-top: 30px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 220px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  padding-bottom: 15px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
