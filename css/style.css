@@ -16,6 +16,8 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .main-container {
@@ -56,6 +58,36 @@ a {
 
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+/****** Header ***********/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.lien-logo {
+  padding: 30px 0px;
+}
+
+.lien-logo img {
+  width: 69.01px;
+  height: 19px;
+}
+
+#menu {
+  display: flex;
+  gap: 68px;
+}
+
+#menu a {
+  padding-top: 16px;
+}
+
+#menu a:hover {
+  color: #0065FC;
+  border-top: 2px solid #0065FC;
 }
 
 /****** Hebergements And Populaires ***********/
